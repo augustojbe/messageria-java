@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.augustojbe.pedidos.processador</groupId>
-	<artifactId>pecessador</artifactId>
+	<artifactId>processador</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pecessador</name>
 	<description>Demo project for Spring Boot</description>
@@ -122,6 +122,12 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
 	</build>
 
 </project>
